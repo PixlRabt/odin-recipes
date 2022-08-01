@@ -1,0 +1,4 @@
+//tealium universal tag - utag.sync ut4.0.202207211134, Copyright 2022 Tealium.com Inc. All Rights Reserved.
+var loadScript=function(url,callback){var script=document.createElement("script");script.type="text/javascript";script.async=true;if(script.readyState){script.onreadystatechange=function(){if(script.readyState=="loaded"||script.readyState=="complete"){script.onreadystatechange=null;if(callback&&typeof callback==="function"){callback();}}};}else{script.onload=function(){if(callback&&typeof callback==="function"){callback();}};}
+script.src=url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(script);}
+loadScript('//tags.news.com.au/prod/visitor/adobe_visitor.js',function(){console.log('Adobe Visitor API loaded');});
